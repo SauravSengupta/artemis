@@ -11,6 +11,7 @@ import java.util.Map;
  *
  */
 public class TagManager {
+	@SuppressWarnings("unused")
 	private World world;
 	private Map<String, Entity> entityByTag;
 

@@ -24,6 +24,7 @@ public class TrigLUT {
 		return cos[(int) (deg * degToIndex) & SIN_MASK];
 	}
 
+	@SuppressWarnings("unused")
 	private static final float RAD, DEG;
 	private static final int SIN_BITS, SIN_MASK, SIN_COUNT;
 	private static final float radFull, radToIndex;

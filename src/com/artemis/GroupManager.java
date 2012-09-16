@@ -16,6 +16,7 @@ import com.artemis.utils.ImmutableBag;
  *
  */
 public class GroupManager {
+	@SuppressWarnings("unused")
 	private World world;
 	private Bag<Entity> EMPTY_BAG;
 	private Map<String, Bag<Entity>> entitiesByGroup;

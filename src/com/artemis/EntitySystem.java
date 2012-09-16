@@ -1,7 +1,7 @@
 package com.artemis;
 
-import com.artemis.utils.Bag;
-import com.artemis.utils.ImmutableBag;
+//import com.artemis.utils.Bag;
+//import com.artemis.utils.ImmutableBag;
 
 /**
  * The most raw entity system. It should not typically be used, but you can create your own entity system handling by extending this. It is recommended that you use the other provided entity system implementations.
