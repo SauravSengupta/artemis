@@ -18,6 +18,7 @@ public abstract class EntityProcessingSystem extends EntitySystem {
 	 * @param requiredType the required component type.
 	 * @param otherTypes other component types.
 	 */
+	@SuppressWarnings("unchecked")
 	public EntityProcessingSystem(Class<? extends Component> requiredType, Class<? extends Component>... otherTypes) {
 		super(getMergedTypes(requiredType, otherTypes));
 	}

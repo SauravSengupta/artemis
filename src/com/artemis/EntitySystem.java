@@ -19,6 +19,7 @@ public abstract class EntitySystem {
 	public EntitySystem() {
 	}
 
+	@SuppressWarnings("unchecked")
 	public EntitySystem(Class<? extends Component>... types) {
 		for (Class<? extends Component> type : types) {
 			ComponentType ct = ComponentTypeManager.getTypeFor(type);
